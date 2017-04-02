@@ -7,6 +7,7 @@ This is an archive of stuff to do with Mount Isa Theatrical Society:
 - Newspaper Clippings
 - Cast Photos
 - Scans of the comments book
+- The MITS websites circa 2007 ([old](https://liwenyip.github.io/mits-archive/2007-old-website/), [new](https://liwenyip.github.io/mits-archive/2007-new-website/))
 - Other random stuff
 
 It's fairly complete for the years I was publicity offer (2007, 2008, 2009) - the only thing missing is the Programme for Nth Degree Reality.
