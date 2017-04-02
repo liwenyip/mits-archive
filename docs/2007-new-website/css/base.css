@@ -1,0 +1,136 @@
+/*
+Formatting for Base Template
+*/
+
+/*
+
+ * display
+ * list-style
+ * position
+ * float
+ * clear
+ * width
+ * height
+ * margin
+ * padding
+ * border
+ * background
+ * color
+ * font
+ * text-decoration
+ * text-align
+ * vertical-align
+ * white-space
+ * other text
+ * content
+ 
+ */
+ 
+body {
+	margin:0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	
+}
+	
+	#container {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 760px;
+		margin: 0 0 0 -380px;
+		background: #FFFFFF;
+	
+}
+
+/* Header */
+
+	#header {
+		width: 100%;
+		float: left; /* This starts a new block formatting context, so that this div will auto-height to include floating divs within */
+		padding: 0;
+		margin: 0 auto;
+		background: #AA0000 url(../images/mits_logo_white_red.gif) right no-repeat;
+		min-height: 60px;
+	}
+	#header h1 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 2em;
+		color: #FFFFFF;
+		margin: 0;
+		padding: 12px;
+	}
+	#header ul {
+		padding: 0 0 0 12px;
+		margin: 0;
+		list-style: none;
+		}
+	#header li {
+		float: left;
+		padding: 0;
+		margin: 0 6px;
+		white-space: nowrap;
+	}
+	#header li a {
+		display: block; /* So that padding works */
+		padding: 3px 12px;
+		margin: 0;
+		color: #FFFFFF;
+		text-decoration: none;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		border-top: 1px solid transparent;
+		border-left: 1px solid transparent;
+		border-right: 1px solid transparent;
+	}
+	#header li a:hover {
+		border-color: #FFFFFF;
+	}
+
+/* Content */
+
+	#content h2 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-style: italic;
+		color: #006600;
+		border-bottom: 1px solid #CCCCCC;
+		padding: 0 0 3px 0;
+		margin: 6px 0 12px 0;
+		}
+
+/* Footer */
+	#footer {
+		margin: 12px 0 0;
+		padding: 6px;
+		border-top: 1px solid #DDDDDD;
+	}
+	#footer p {
+		margin: 0;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		color: #AAAAAA;
+	}
+	#footer a {
+		color: #AAAAAA;
+	}
+	#footerleft {
+		float: left;
+		width: 50%;
+	}
+	#footerright {
+		float: right;
+		text-align: right;
+		line-height: 1.5;
+	}
+	
+
+
+/* Hacking Stuff */
+	.level {
+		display: block;
+		visibility: hidden;
+		clear: both;
+		margin: 0;
+		padding: 0;
+	}

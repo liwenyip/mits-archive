@@ -1,0 +1,78 @@
+/*
+Formatting for Front Page
+*/
+
+/*
+
+ * display
+ * list-style
+ * position
+ * float
+ * clear
+ * width
+ * height
+ * margin
+ * padding
+ * border
+ * background
+ * color
+ * font
+ * text-decoration
+ * text-align
+ * vertical-align
+ * white-space
+ * other text
+ * content
+ 
+ */
+
+
+/* General Formatting */
+	#frontpage h2 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-style: italic;
+		color: #006600;
+		border-bottom: 1px solid #CCCCCC;
+		padding: 0 0 3px 0;
+		margin: 6px 0 12px 0;
+		}
+	#frontpage p {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-style: italic;
+		margin: 0;
+		padding: 6px 0;
+	}
+	
+/* Main Feature */
+	#feature {
+		margin: 20px 0 20px 0;
+	}
+	
+/* Upcoming Events */
+
+	#upcoming {
+		float: left;
+		clear: left;
+		width: 350px;
+		margin: 0 12px;
+	}
+	#upcoming p {
+		border-bottom: 1px dashed #999999;
+	}
+
+/* About us */
+
+	#aboutus {
+		float: right;
+		clear: right;
+		width: 350px;
+		margin: 0 12px;
+	}
+	#aboutus p {
+		line-height: 1.5;
+}
+
+/* Insert some space between the footer */
+	#footer {
+		margin-top: 80px !important;
+	}

@@ -1,0 +1,41 @@
+/*
+Formatting for Content Area
+*/
+
+/*
+
+ * display
+ * list-style
+ * position
+ * float
+ * clear
+ * width
+ * height
+ * margin
+ * padding
+ * border
+ * background
+ * color
+ * font
+ * text-decoration
+ * text-align
+ * vertical-align
+ * white-space
+ * other text
+ * content
+ 
+ */
+ 
+	#content h2 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-style: italic;
+		color: #006600;
+		border-bottom: 1px solid #CCCCCC;
+		padding: 0 0 3px 0;
+		margin: 6px 0 12px 0;
+	}
+	#content p {
+	}
+	#content a {
+		color: #CC6600;
+	}
